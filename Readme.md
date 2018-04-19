@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Эрато Арамян](https://up.htmlacademy.ru/adaptive/14/user/237887).
-* Наставник: `Неизвестно`.
+* Наставник: `Андрей Чепулис`.
 
 ---
 
