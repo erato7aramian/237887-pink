@@ -30,14 +30,13 @@
          </nav>
       </header>
       <main class="page-main">
-         <section class="advert">
-            <h2 class="advert__title">Конкурс на самое безбашенное путешествие с Пинк</h2>
-         </section>
-         <section class="share-history">
-            <div class="share-history__wrapper">
-               <header class="share-history__header">
-                  <h3>Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</h3>
-               </header>
+         <fieldset class="advert">
+            <legend class="advert__title">Конкурс на самое безбашенное путешествие с Пинк</legend>
+         </fieldset>
+         <fieldset class="share-history">
+               <legend class="share-history__header">
+                  Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!
+               </legend>
                <div class="history-form">
                   <div class="history-form__item">
                      <label>Фамилия:</label>
@@ -52,11 +51,9 @@
                      <input type="text" placeholder="Ну и отчество тоже"/>
                   </div>
                </div>
-            </div>
-         </section>
-         <section class="achievements">
-            <div class="achievements__wrapper">
-               <h3 class="achievements__title">Ваши безбашенные достижения в путешествии</h3>
+         </fieldset>
+         <fieldset class="achievements">
+		  <legend class="achievements__title">Ваши безбашенные достижения в путешествии</legend>
                <ul class="achievements__list">
                   <li class="achievements__item">
                      <input type="checkbox"/>
@@ -93,28 +90,26 @@
                      <input type="email" placeholder="Введите почту*"/>
                   </div>
                </div>
-            </div>
-         </section>
-         <section class="applications">
-            <div class="applications__wrapper">
-               <h3 class="applications__title">С какими приложениями путешествовали?</h3>
+         </fieldset>
+         <fieldset class="applications">
+		 <legend class="applications__title">С какими приложениями путешествовали?</legend>
                <ul class="applications__list">
                   <li class="applications__item">
                      <input type="radio" name="pplications__radio"/>
                      <p class="applications__example">Pink iOS</p>
                   </li>
                   <li class="applications__item">
-                     <input type="radio" name="pplications__radio"/>
-                     <p class="achievements__example">Pink Android</p>
+                     <input type="radio" name="applications__radio"/>
+                     <p class="applications__example">Pink Android</p>
                   </li>
-                  <li class="aapplications__item">
-                     <input type="radio" name="pplications__radio"/>
+                  <li class="applications__item">
+                     <input type="radio" name="applications__radio"/>
                      <p class="applications__example">Windows Phone</p>
                   </li>
                </ul>
-         </section>
-         <section class="emotions">
-         <h3 class="emotions__title">Опишите свои эмоции</h3>
+         </fieldset>
+         <fieldset class="emotions">
+         <legend class="emotions__title">Опишите свои эмоции</legend>
          <div class="emotions__form">
          <textarea rows="4" cols="10" class="emotions__textarea">
          Можно прям в красках, не стесняясь в выражениях
@@ -124,13 +119,12 @@
          <sup>*</sup> — Обязательные поля
          </small>
          </div>
-         </div>
-         </section>
+         </fieldset>
       </main>
       <footer class="page-footer">
          <div class="page-footer__wrapper">
             <div class="page-footer__logo">
-               <img class="page-footer__logo--image" src="http://placehold.it/150x100" alt="Pink»">
+               <img class="page-footer__image" src="http://placehold.it/150x100" alt="Pink»">
             </div>
             <div class="page-footer__social social">
                <ul class="social__list">
